@@ -21,5 +21,9 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('auth/', include('apps.oaauth.urls'))
+    path('auth/', include('apps.oaauth.urls')),
+    path('preprocess/',include('apps.dataProcess.urls')),
+    path('pccdata/',include('apps.dataPcc.urls')),
+    path('cars/',include('apps.dataCars.urls')),
+    path('datacon/',include('apps.dataCon.urls')),
 ]

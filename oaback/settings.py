@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     "apps.oaauth.apps.OaauthConfig",
+    "apps.dataProcess",
+    # "apps.dataProcess.apps",
+    "apps.dataCars",
+    "apps.dataCon"
 ]
 
 MIDDLEWARE = [
