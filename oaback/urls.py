@@ -26,4 +26,12 @@ urlpatterns = [
     path('pccdata/',include('apps.dataPcc.urls')),
     path('cars/',include('apps.dataCars.urls')),
     path('datacon/',include('apps.dataCon.urls')),
+    path('spa/',include('apps.spa.urls')),
+    path('sipls/',include('apps.sipls.urls')),
+    path('svr/',include('apps.svr.urls')),
+    path('gasvr/',include('apps.gasvr.urls')),
+    path('xgb/',include('apps.xgboost.urls')),
+
+
+
 ]
